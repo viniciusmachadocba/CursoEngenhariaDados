@@ -1,0 +1,62 @@
+{
+    // "python.pythonPath": "envNovo\\Scripts\\python.exe",
+    "python.testing.unittestEnabled": true,
+    "python.languageServer": "Pylance",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.autoIndent": true,
+    // "intellicodeApiExamples.python.enabled": true,
+    "editor.fontFamily": "JetBrains Mono,Consolas, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.6,
+    "editor.fontLigatures": true,
+    "terminal.integrated.lineHeight": 1.3,
+    "code-runner.executorMap": {
+        "python": "env\\Scripts\\python.exe -u",
+    },
+    "code-runner.ignoreSelection": true,
+    "code-runner.runInTerminal": true,
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.fixAll.unusedImports": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "todo-tree.tree.scanMode": "open files",
+    "jupyter.jupyterServerType": "local",
+    "files.autoGuessEncoding": true,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "jupyter.askForKernelRestart": false,
+    "notebook.output.textLineLimit": 999,
+    "breadcrumbs.enabled": true,
+    "notebook.lineNumbers": "on",
+    "workbench.colorTheme": "Dracula Theme Soft",
+    "window.zoomLevel": -1,
+    "security.workspace.trust.startupPrompt": "always",
+    "security.workspace.trust.untrustedFiles": "open",
+    "json.schemas": [],
+    "autoDocstring.docstringFormat": "google",
+    "python.analysis.typeCheckingMode": "basic", //"basic",
+    "vsintellicode.python.completionsEnabled": true,
+    "git.ignoreLimitWarning": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": false,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "88"
+    ],
+    "source.organizeImports": true
+  
+  "python.sortImports.args": [
+        "--profile",
+        "black"
+    ],
+    "python.analysis.typeCheckingMode": "basic"
+}
