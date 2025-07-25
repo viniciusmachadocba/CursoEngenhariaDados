@@ -20,7 +20,10 @@ class GetInfoCep:
         url = f"https://brasilapi.com.br/api/cep/v1/{self.cep}"
 
         try:
-            temp_resposta = requests.get(url)
+            meu_request = requests.Session()
+            meu_request.trust_env = False
+            
+            temp_resposta = meu_request.get(url)
         
         except Exception as e:
             raise f"Erro na requisicao\n {e}"
